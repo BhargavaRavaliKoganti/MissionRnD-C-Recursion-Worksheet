@@ -8,7 +8,8 @@ int main(){
 	//Check NSnipers
 
 	//Check CountPairs Sample Code 
-
+	int pairs = count_pairs_wrapper("ababa", 5);
+	printf("%d\n", pairs);
 	//Check Steps Sample Code
 	int count = get_steps(5);
 	printf("%d\n", count);
