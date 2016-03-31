@@ -9,15 +9,13 @@ int main(){
 
 	//Check CountPairs Sample Code 
 	int pairs = count_pairs_wrapper("ababa", 5);
-	printf("%d\n", pairs);
+	printf("Pairs->%d\n", pairs);
 	//Check Steps Sample Code
 	int count = get_steps(5);
-	printf("%d\n", count);
+	printf("get_steps->%d\n", count);
 	//Check Spiral Sample Code
 
 	//Check Maze Sample Code
-
-	/*
 	int maze[4][3] = {
 		{ 0, 0, 1 },
 		{ 1, 1, 1 },
@@ -30,7 +28,6 @@ int main(){
 
 	int check=path_exists(&maze[0][0], m, n, x1, y1, x2, y2);
 	printf("%d\n", check);
-	*/
 
 	
 	return 0;
